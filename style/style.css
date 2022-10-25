@@ -2,7 +2,6 @@
 
 * {
     margin: 0px;
-    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -26,8 +25,6 @@ main {
     padding: 20px;
     background-color: white;
     box-shadow: 0, 0, 0, rgba(0, 0, 0, 0.418);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
 
 header {
@@ -38,7 +35,6 @@ header {
 
 h1 {
     color: white;
-    ;
     font-size: 3em;
     font-weight: normal;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
@@ -47,18 +43,25 @@ h1 {
 p {
     font-size: 20px;
     line-height: 20px;
-    padding: 25px 5px 5px 25px;
+    padding: 5px 5px 5px 5px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
  
-fieldset {
-    padding-left: 30px;
-}
-
 legend {
     color: royalblue;
+    padding: 5px;
     box-shadow: 0, 0, 0, rgba(0, 0, 0, 0.471);
+}
+
+.radio2, label {
+    padding: 10px 10px 10px 0px;
+}
+
+.venc {
+    padding: 5px;
+    text-align: left;
+    font-weight: bold;
 }
 
 label {
@@ -71,10 +74,10 @@ label {
     background-color: green;
     color: var(--cor0);
     padding: 10px;
-    margin-top: 20px;
+    margin: 10px;
+    margin: auto;
     width: 100px;
     border-radius: 3px;
-    text-align: center;
     font-weight: bolder;
     transition: 0.5s;
 }
@@ -89,8 +92,8 @@ label {
     background-color: blue;
     color: var(--cor0);
     padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     width: 300px;
     border-radius: 3px;
     text-align: center;
@@ -108,7 +111,7 @@ label {
     background-color: lightgrey;
     color: var(--cor00);
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 90px;
     border-radius: 3px;
     text-align: center;
